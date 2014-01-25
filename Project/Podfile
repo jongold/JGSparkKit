@@ -1,0 +1,7 @@
+pod "SparkKit", :path => "../SparkKit.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
