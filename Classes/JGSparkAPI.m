@@ -15,7 +15,7 @@
 
 + (instancetype)sharedAPI
 {
-  static SparkAPI *sharedAPI = nil;
+  static JGSparkAPI *sharedAPI = nil;
   static dispatch_once_t onceToken;
   dispatch_once(&onceToken, ^{
     sharedAPI = [[self alloc] init];
