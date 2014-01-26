@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JGSparkKit"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A little wrapper for the Spark Cloud API"
   s.description  = <<-DESC
                     This is a quick wrapper I wrote for the Spark Cloud API - to power Spark Cores for fun, profit, and creating dangerous internet-of-things connect robots!
