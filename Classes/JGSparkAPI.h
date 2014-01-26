@@ -12,9 +12,13 @@
 
 @property (nonatomic, strong) NSString *accessToken;
 @property (nonatomic, strong) NSString *deviceID;
+@property (nonatomic, strong) NSURL *baseURL;
 
 + (instancetype)sharedAPI;
-- (void)runCommand:(NSString *)command args:(NSArray *)args usingBlock:(void (^)(NSDictionary *))callback;
-- (void)getVariable:(NSString *)variable usingBlock:(void (^)(NSDictionary *))callback;
+- (void)getDevicesUsingBlock:(void (^)(NSArray *responseObject))callback;
+- (void)getDeviceUsingBlock:(void (^)(NSDictionary *responseObject))callback;
+- (void)getDeviceWithDeviceID:(NSString *)deviceID usingBlock:(void (^)(NSDictionary *responseObject))callback;
+- (void)runCommand:(NSString *)command args:(NSArray *)args usingBlock:(void (^)(NSDictionary *responseObject))callback;
+- (void)getVariable:(NSString *)variable usingBlock:(void (^)(NSDictionary *responseObject))callback;
 
 @end
