@@ -1,4 +1,4 @@
-# SparkKit CHANGELOG
+# JGSparkKit CHANGELOG
 
 ## 0.1.0
 

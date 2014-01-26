@@ -1,4 +1,4 @@
-pod "SparkKit", :path => "../SparkKit.podspec"
+pod "JGSparkKit", :path => "../JGSparkKit.podspec"
 
 target "Demo" do
 end

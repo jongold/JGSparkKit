@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes'
+  s.source_files = 'Classes/*.{h,m}'
   s.dependency 'AFNetworking', '~> 2.1'
 end
