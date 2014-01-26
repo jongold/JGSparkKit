@@ -6,7 +6,7 @@
 ## Usage
 
 In your app…
-```
+```objective-c
 #import <JGSparkKit/JGSparkAPI.h>
 - (void)doSparkyStuff {
 
@@ -28,7 +28,7 @@ In your app…
 ```
 
 On Spark.io Build…
-```
+```c
 int inputPin = A0;
 int ledPin = D7;
 
