@@ -46,7 +46,7 @@ void loop() {
     inputValue = analogRead(inputPin);
 }
 
-int myCommand(String args) {
+int flash(String args) {
     for (int i = 0; i < 20; i++) {
         digitalWrite(ledPin, HIGH);
         delay(60);
